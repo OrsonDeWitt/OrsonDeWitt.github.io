@@ -69,6 +69,22 @@ body {
   background-color: #fff;
 }
 
+.card {
+    border: 0;
+    border-bottom: .25rem solid #8e2132;
+}
+
+.bigicon {
+    text-align: center;
+    height: 3rem;
+    width: 3rem;
+    background: #8e2132;
+    border-radius: 10%;
+    line-height: 3rem;
+    color: rgba(255,255,255,1);
+}
+
+
 [tabindex="-1"]:focus {
   outline: 0 !important;
 }
