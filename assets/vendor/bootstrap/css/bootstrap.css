@@ -50,6 +50,9 @@ html {
   -webkit-tap-highlight-color: transparent;
 }
 
+fas {
+  
+
 @-ms-viewport {
   width: device-width;
 }
@@ -71,6 +74,7 @@ body {
 
 .card {
     border: 0;
+    font-color: #000000;
     border-bottom: .25rem solid #8e2132;
 }
 
