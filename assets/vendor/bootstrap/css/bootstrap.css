@@ -89,6 +89,12 @@ p {
   margin-bottom: 1rem;
 }
 
+br
+{   content: "A" !important;
+    display: block !important;
+    margin-bottom: 1.5em !important;
+}
+
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
