@@ -73,13 +73,13 @@ layout: default
 
           <article class="post-preview">
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-              <div class="post-container"><i class="fas fa-scroll bigicon mb-2"></i> 
+              <div class="post-container">
                 <div class="post-img-container" title="Image by {{post.artist}}">
                   <img class="post-img" src={{post.background}}>
                 </div>
                 <div class="post-text">
                   <div class="post-text-header">
-                    <h2 class="post-title">{{ post.title }}</h2>
+                    <h2 class="post-title">{{ post.title }} <i class="fas fa-scroll bigicon mb-2"></i> </h2>
                     <p class="post-meta">
                       {{ post.date | date: '%B %d, %Y' }}
                     </p>
