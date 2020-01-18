@@ -4372,9 +4372,7 @@ input[type="button"].btn-block {
 }
 
 .hrcol {
-  color: #FBC403;
-  background-color: #FBC403;
-  border: none;
+  color: #FBC403 !important;
 }
   
 .card > .list-group:first-child .list-group-item:first-child {
