@@ -4360,8 +4360,8 @@ input[type="button"].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: rgba(227, 128, 74, 0.8);
-  background-blend-mode: multiply;
+  background-image: url("/img/grunge.jpg");
+  background-blend-mode: color-burn;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
