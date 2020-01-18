@@ -80,6 +80,10 @@ body {
     color: #6610f2;
 }
 
+.mail {
+  -ms-flex-align: center;
+  align-items: center;
+}
 
 [tabindex="-1"]:focus {
   outline: 0 !important;
