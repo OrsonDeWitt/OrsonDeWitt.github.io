@@ -4360,7 +4360,7 @@ input[type="button"].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 0, 0);
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -4369,6 +4369,8 @@ input[type="button"].btn-block {
 .card > hr {
   margin-right: 0;
   margin-left: 0;
+  border: 0; 
+  border-top: 1px solid #FBC403;
 }
 
 .card > .list-group:first-child .list-group-item:first-child {
