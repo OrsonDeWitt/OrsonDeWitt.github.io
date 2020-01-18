@@ -1,9 +1,9 @@
-title:             Square Zero
-email:             sssurajsuraj@gmail.com
-description:       Silent Observations
-author:            J
+title:             Orcinus Games
+email:             dev@orsondewitt.com
+description:       Interactive novel with factual Ancient Egyptian history at its core
+author:            Orson De Witt
 #url:               "localhost:4000"
-url:               "http://squarezero.github.io/"
+url:               "http://orsondewitt.github.io/"
 baseurl:
 
 # Social Profiles
