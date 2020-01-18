@@ -83,6 +83,8 @@ body {
 .mail {
   -ms-flex-align: center;
   align-items: center;
+  width: 65%; 
+  left: 30%;
 }
 
 [tabindex="-1"]:focus {
