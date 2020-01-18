@@ -4360,6 +4360,7 @@ input[type="button"].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
+  background-color: #e8ad0c;
   background-image: url("/img/grunge.jpg");
   background-blend-mode: color-burn;
   background-clip: border-box;
