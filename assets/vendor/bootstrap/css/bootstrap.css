@@ -101,6 +101,10 @@ p {
   margin-bottom: 0.2rem;
 }
 
+br {
+  margin-bottom: 0.1rem !important;
+}
+
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
