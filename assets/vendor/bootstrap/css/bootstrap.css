@@ -8827,6 +8827,10 @@ button.bg-dark:focus {
   color: #fff !important;
 }
 
+.text-gold {
+  color: #FBC403 !important;
+}
+
 .text-primary {
   color: #007bff !important;
 }
