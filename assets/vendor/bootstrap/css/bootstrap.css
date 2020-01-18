@@ -4355,6 +4355,7 @@ input[type="button"].btn-block {
   min-width: 0;
   word-wrap: break-word;
   background-color: rgba(227, 128, 74, 0.8);
+  background-blend-mode: multiply;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
