@@ -74,10 +74,10 @@ body {
     text-align: center;
     height: 3rem;
     width: 3rem;
-    background: #8e2132;
+    background: #FBC403;
     border-radius: 10%;
     line-height: 3rem;
-    color: #6610f2;
+    color: #000;
 }
 
 .mail {
