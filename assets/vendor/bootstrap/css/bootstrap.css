@@ -4370,11 +4370,6 @@ input[type="button"].btn-block {
   margin-right: 0;
   margin-left: 0;
 }
-
-.hrcol {
-  color: #FBC403 !important;
-  border: 0;
-}
   
 .card > .list-group:first-child .list-group-item:first-child {
   border-top-left-radius: 0.25rem;
