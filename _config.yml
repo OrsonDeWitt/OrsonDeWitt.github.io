@@ -9,7 +9,7 @@ baseurl:
 # Social Profiles
 #twitter_username:  SBootstrap
 #github_username:   BlackrockDigital
-#subreddit: OrcinusGames
+subreddit: OrcinusGames
 
 # Build settings
 markdown:          kramdown
