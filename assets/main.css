@@ -5,9 +5,6 @@ body{
 	color:rgba(255,255,255,0.6);
 	font-family:'Source Sans Pro', serif
 }
-.bl-bg{
-background-color: #FBC403;
-}
 p{
 	line-height:1.5;
 	margin:30px 0
@@ -173,7 +170,7 @@ header.masthead .overlay{
 	opacity:0.1
 }
 header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading{
-	padding:80px 0 50px;
+	padding:85px 0 0px;
 	color:#FBC403;
 }
 }
