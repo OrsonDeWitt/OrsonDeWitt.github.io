@@ -150,7 +150,7 @@ img::-moz-selection{
 }
 }
 header.masthead{
-	margin-bottom:80px;
+	margin-bottom:50px;
 	background:no-repeat center center;
 	background-color:#868e96;
 	background-attachment:scroll;
@@ -171,7 +171,7 @@ header.masthead .overlay{
 	opacity:0.1
 }
 header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading{
-	padding:50px 0 150px;
+	padding:50px 0 200px;
 	color:#FBC403;
 }
 @media only screen and (min-width: 768px){
