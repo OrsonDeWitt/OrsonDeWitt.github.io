@@ -178,10 +178,6 @@ header.masthead .page-heading,header.masthead .post-heading,header.masthead .sit
 }
 }
 @media only screen and (min-width: 768px){
-	header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading{
-		padding:60px 0
-}
-}
 header.masthead .page-heading>h1{
 	font-family:'Josefin Sans';
 	letter-spacing:-4px;
@@ -207,10 +203,10 @@ header.masthead .page-heading .subheading,header.masthead .site-heading .subhead
 	-webkit-text-stroke-width: 0px;
 	-webkit-text-stroke-color: white;
 }
+	}
 @media only screen and (min-width: 768px){
 	header.masthead .page-heading h1,header.masthead .site-heading h1{
 		font-size:54px
-}
 }
 header.masthead .post-heading h1{
 	font-size:35px;
