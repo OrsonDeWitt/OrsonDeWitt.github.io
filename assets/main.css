@@ -34,10 +34,6 @@ blockquote{
 	font-weight:700;
 	margin-top:20px
 }
-header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading{
-	padding:120px 0 50px;
-	color:#FBC403;
-}
 .caption{
 	font-size:14px;
 	font-style:italic;
@@ -109,6 +105,10 @@ img::-moz-selection{
 	#mainNav .navbar-nav>li.nav-item>a:focus,#mainNav .navbar-nav>li.nav-item>a:hover{
 		color:rgba(255,184,68,0.8);
 		transition: color 0.5s;
+}
+	header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading{
+	padding:120px 0 50px;
+	color:#FBC403;
 }
 }
 @media only screen and (min-width: 992px){
