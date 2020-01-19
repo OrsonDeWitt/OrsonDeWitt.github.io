@@ -34,6 +34,10 @@ blockquote{
 	font-weight:700;
 	margin-top:20px
 }
+header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading{
+	padding:120px 0 50px;
+	color:#FBC403;
+}
 .caption{
 	font-size:14px;
 	font-style:italic;
