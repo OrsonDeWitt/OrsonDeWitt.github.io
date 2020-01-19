@@ -35,7 +35,7 @@ blockquote{
 	margin-top:20px
 }
 .text-glod{
-	font-color: #d9692a
+	font-color: #d9692a !important;
 }
 .caption{
 	font-size:14px;
