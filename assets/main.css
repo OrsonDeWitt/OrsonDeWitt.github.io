@@ -106,10 +106,6 @@ img::-moz-selection{
 		color:rgba(255,184,68,0.8);
 		transition: color 0.5s;
 }
-	header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading{
-	padding:120px 0 50px;
-	color:#FBC403;
-}
 }
 @media only screen and (min-width: 992px){
 	#mainNav{
@@ -152,7 +148,6 @@ img::-moz-selection{
 		-o-transform:translate3d(0, 100%, 0);
 		transform:translate3d(0, 100%, 0)
 }
-}
 header.masthead{
 	margin-bottom:50px;
 	background:no-repeat center center;
@@ -175,12 +170,13 @@ header.masthead .overlay{
 	opacity:0.1
 }
 header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading{
-	padding:50px 0 50px;
+	padding:70px 0 50px;
 	color:#FBC403;
+}
 }
 @media only screen and (min-width: 768px){
 	header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading{
-		padding:100px 0
+		padding:60px 0
 }
 }
 header.masthead .page-heading>h1{
