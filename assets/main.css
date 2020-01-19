@@ -171,7 +171,7 @@ header.masthead .overlay{
 	opacity:0.1
 }
 header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading{
-	padding:10px 0 0px;
+	padding:100px 0 50px;
 	color:#FBC403;
 }
 @media only screen and (min-width: 768px){
