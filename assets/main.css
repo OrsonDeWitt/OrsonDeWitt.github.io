@@ -489,7 +489,6 @@ Timeline
   opacity: 1;
 }
 .cd-horizontal-timeline .timeline {
-  position: relative;
   height: 100px;
   width: 100%;
   max-width: 900px;
