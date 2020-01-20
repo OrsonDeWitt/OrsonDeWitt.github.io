@@ -2,7 +2,7 @@
 body{
 	background-color:black;
 	font-size:16px;
-	color:rgba(255,255,255,0.6);
+	color:#d9692a;
 	font-family:'Source Sans Pro', serif
 }
 p{
@@ -33,9 +33,6 @@ blockquote{
 	font-size:36px;
 	font-weight:700;
 	margin-top:20px
-}
-.text-glod{
-	font-color: #d9692a !important;
 }
 .caption{
 	font-size:14px;
