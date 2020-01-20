@@ -44,11 +44,6 @@ layout: default
         font-family: helvetica; 
         color: #d8c580;
     }
-    .subscription-form-fields {
-        margin-top: 15px;
-	width: auto;
-	display: inline-block;
-    }
 	h8 {
         color: #FBC403; 
         font-size: 30px;
@@ -58,7 +53,7 @@ layout: default
         color: #d8c580; 
         font-size: 14px;
     }
-    .subscription-form-fields button {
+    .subscription-form-input button {
         padding: 0px; 
         text-align: center;
         border: none;
@@ -83,9 +78,6 @@ layout: default
         margin-right: 2px;
         vertical-align: text-bottom;
     }
-	.width {
-	width: 550px;
-	}
 </style>
   </header>
 	  
@@ -103,8 +95,7 @@ layout: default
             <h8>Sign up to find out first-hand!</h8>
                <div class="subscription-form-input">
                     <form id="sender-subscribe" action="https://app.sender.net/forms/sender_subscription/2812/86ed8624" method="POST">    
-                            <div class="subscription-form-fields" id="subscription-form-fields">
-                              <input name="email" class="email_type width" id="email" data-label="E-mail" placeholder="E-mail" required>
+                              <input name="email" class="email_type" style="width:70%" id="email" data-label="E-mail" placeholder="E-mail" required>
 				 <button type="submit"><i class="fas fa-arrow-circle-right text-gold"></i> </button>
                                   </div>
                     </form>
