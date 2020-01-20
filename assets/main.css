@@ -571,24 +571,8 @@ Timeline
   padding:5px;
   margin-bottom:20px;
 }
-	.cd-horizontal-timeline .events a2 {
-  position: absolute;
-  width:100px;
+	.cd-horizontal-timeline .events a .a2 {
   bottom: -80px;
-  z-index: 2;
-  text-align: center;
-  font-size: 1.3rem;
-  padding-bottom: 15px;
-  color: #383838;
-  /* fix bug on Safari - text flickering while timeline translates */
-  -webkit-transform: translateZ(0);
-  -moz-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  -o-transform: translateZ(0);
-  transform: translateZ(0);
-  color:white;
-  padding:5px;
-  margin-bottom:20px;
 }
 /* custom*/
 .cd-horizontal-timeline .events a::before {
@@ -600,14 +584,8 @@ Timeline
   bottom:-20px;
   left:50%;
 }
-	.cd-horizontal-timeline .events a2::before {
-  content: '';
-  position: absolute;
-  width:1px;
-  height:20px;
-  background: #fff;
+	.cd-horizontal-timeline .events a .a2::before {
   bottom:40px;
-  left:50%;
 }
 
 .cd-horizontal-timeline .events a::after {
@@ -631,27 +609,10 @@ Timeline
   -moz-transition: background-color 0.3s, border-color 0.3s;
   transition: background-color 0.3s, border-color 0.3s;
 }
-	.cd-horizontal-timeline .events a2::after {
-  /* this is used to create the event spot */
-  content: '';
-  position: absolute;
-  left: 50%;
-  right: auto;
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
-  transform: translateX(-50%);
-  bottom: 55px;
-  height: 12px;
-  width: 12px;
-  border-radius: 50%;
-  border: 2px solid #fff;
-  background-color: #fff;
-  -webkit-transition: background-color 0.3s, border-color 0.3s;
-  -moz-transition: background-color 0.3s, border-color 0.3s;
-  transition: background-color 0.3s, border-color 0.3s;
-}
+	.cd-horizontal-timeline .events a::after .a2 {
+	  bottom: 55px;
+	}
+	
 .no-touch .cd-horizontal-timeline .events a:hover::after {
   background-color: #FF3D7F;
   border-color: #fff;
