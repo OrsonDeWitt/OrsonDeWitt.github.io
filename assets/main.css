@@ -609,7 +609,7 @@ Timeline
   -moz-transition: background-color 0.3s, border-color 0.3s;
   transition: background-color 0.3s, border-color 0.3s;
 }
-	.cd-horizontal-timeline .events a::after .a2 {
+	.cd-horizontal-timeline .events a .a2::after {
 	  bottom: 55px;
 	}
 	
