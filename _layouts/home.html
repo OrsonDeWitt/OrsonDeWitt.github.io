@@ -27,10 +27,6 @@ layout: default
         font-size: 13px;
         line-height: 18px;
         color: #555555;
-        border: 1px solid #ccc;
-        -webkit-border-radius: 3px;
-        -moz-border-radius: 3px;
-        border-radius: 3px;
         width: 100%;
         box-sizing: border-box;
         -moz-box-sizing: border-box;
@@ -79,6 +75,13 @@ layout: default
         margin-right: 2px;
         vertical-align: text-bottom;
     }
+    .subscription-form-input emai {
+	        border: 1px solid #ccc;
+        -webkit-border-radius: 0px 0px 10px 10px;
+        -moz-border-radius: 0px 0px 10px 10px;
+	    border-radius: 0px 0px 10px 10px;
+	    width:70%
+	}
 </style>
   </header>
 	  
@@ -97,11 +100,9 @@ layout: default
                <div class="subscription-form-input">
                     <form id="sender-subscribe" action="https://app.sender.net/forms/sender_subscription/2812/86ed8624" method="POST">  
 			    
-                              <input name="email" class="email_type" style="width:70%" id="email" data-label="E-mail" placeholder="E-mail" required>
+                              <input name="email" class="email_type emai" id="email" data-label="E-mail" placeholder="E-mail" required>
 				 <button type="submit"><i class="fas fa-arrow-circle-right text-gold"></i> </button>
-                                  </div>
                     </form>
-                </div>
                                 <span class="sender-link-wrapper">
                     <a class="sender-link" href="http://sender.net" title="Email marketing services">
                         <img src="https://app.sender.net/favicon.png">
