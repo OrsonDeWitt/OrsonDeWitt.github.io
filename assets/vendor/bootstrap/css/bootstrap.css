@@ -72,7 +72,7 @@ body {
 
 .smallicon {
     text-align: center;
-    height: 22px;
+    height: 100%;
     width: 22px;
     background: #FBC403;
     border-radius: 10%;
