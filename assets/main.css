@@ -493,8 +493,7 @@ Timeline
   height: 100px;
   width: 100%;
   max-width: 900px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
 }
 .cd-horizontal-timeline .events-wrapper {
   position: relative;
