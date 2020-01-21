@@ -541,7 +541,7 @@ padding-top: 2px;
 }
 .accordion a.active:not(.inherit)::after {
   font-family: "Font Awesome 5 Free";
-  content: "\f077"
+  content: "\f077";
   color: #ff5353;
   border: 1px solid #fdb245;
 	font-weight: 900; 
