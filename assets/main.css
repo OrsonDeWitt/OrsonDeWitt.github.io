@@ -506,6 +506,7 @@ footer .copyright{
   font-size: 1.15rem;
   font-weight: 400;
   border-bottom: 1px solid #e5e5e5;
+	margin: auto; 
 }
 .accordion a:hover:not(.inherit),
 .accordion a:hover:not(.inherit)::after {
@@ -536,6 +537,7 @@ footer .copyright{
   text-align: center;
   vertical-align: bottom;
  font-weight: 900; 
+  margin: auto; /* Important */ 
 }
 .accordion a.active:not(.inherit)::after {
   font-family: "Font Awesome 5 Free";
