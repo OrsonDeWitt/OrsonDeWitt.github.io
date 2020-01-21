@@ -489,7 +489,7 @@ footer .copyright{
 }
 
 
-	.accordion a {
+	.accordion a:not(.inherit) {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -510,19 +510,19 @@ footer .copyright{
 	.accordion a .inherit {
 	all:inherit;
 	}
-.accordion a:hover,
-.accordion a:hover::after {
+.accordion a:hover:not(.inherit),
+.accordion a:hover:not(.inherit)::after {
   cursor: pointer;
   color: #fdb245;
 }
-.accordion a:hover::after {
+.accordion a:hover:not(.inherit)::after {
   border: 1px solid #fdb245;
 }
-.accordion a.active {
+.accordion a.active:not(.inherit) {
   color: #fdb245;
   border-bottom: 1px solid #fdb245;
 }
-.accordion a::after {
+.accordion a:not(.inherit)::after {
   font-family: "Font Awesome 5 Free";
   content: "\f077";
   position: absolute;
@@ -540,7 +540,7 @@ footer .copyright{
   vertical-align: middle;
  font-weight: 900; 
 }
-.accordion a.active::after {
+.accordion a.active:not(.inherit)::after {
   font-family: "Font Awesome 5 Free";
   content: "\f139"
   color: #ff5353;
