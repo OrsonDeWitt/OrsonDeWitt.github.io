@@ -481,6 +481,12 @@ mark,
 .list-inline-item:not(:last-child) {
   margin-right: 0.5rem;
 }
+.fa-reddit-square:hover {
+  color:#FF4301
+}
+.fa-discord:hover {
+ color:#7289da
+}
 
 .initialism {
   font-size: 90%;
