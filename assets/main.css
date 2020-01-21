@@ -519,8 +519,8 @@ footer .copyright{
   border-bottom: 1px solid #fdb245;
 }
 .accordion a::after {
-  font-family: 'Ionicons';
-  content: '\f218';
+  font-family: 'Font Awesome 5 Free';
+  content: '\f139';
   position: absolute;
   float: right;
   right: 1rem;
@@ -536,8 +536,8 @@ footer .copyright{
   text-align: center;
 }
 .accordion a.active::after {
-  font-family: 'Ionicons';
-  content: '\f209';
+  font-family: 'Font Awesome 5 Free';
+  content: '\f139';
   color: #ff5353;
   border: 1px solid #fdb245;
 }
