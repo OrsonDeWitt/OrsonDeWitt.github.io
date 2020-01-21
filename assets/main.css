@@ -521,7 +521,7 @@ footer .copyright{
 .accordion a::after {
   font-family: "Font Awesome 5 Free";
   content: "\f077";
-  position: absolute;
+  position: relative;
   float: right;
   right: 1rem;
   font-size: 1rem;
