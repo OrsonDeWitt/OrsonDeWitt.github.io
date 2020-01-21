@@ -10,6 +10,7 @@ baseurl:
 #twitter_username:  SBootstrap
 #github_username:   BlackrockDigital
 subreddit: OrcinusGames
+discord_invite: https://discord.gg/amMNE4x
 
 # Build settings
 markdown:          kramdown
