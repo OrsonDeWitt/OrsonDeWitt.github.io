@@ -13,10 +13,14 @@ layout: default
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="page-heading">
+                      {% if page.url == "/about.html" or page.url == "/press-kit.html" %}
+          	   <img src="http://OrsonDeWitt.github.io/img/egypt.png" width="50%" height="50%">
+          {% else %}
             <h1>SQUARE<br/>ZERO</h1>
             {% if site.description %}
               <span class="subheading">{{ site.description }}</span>
             {% endif %}
+          {% endif %}
           </div>
         </div>
       </div>
