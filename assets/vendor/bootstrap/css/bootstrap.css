@@ -484,6 +484,9 @@ mark,
 .fa-reddit-square:hover {
   color:#FF4301
 }
+.fa-discord {
+vertical-align:-100%;
+}
 .fa-discord:hover {
  color:#7289da
 }
