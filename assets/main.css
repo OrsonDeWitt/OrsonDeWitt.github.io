@@ -501,7 +501,7 @@ footer .copyright{
   flex-direction: column;
   width: 100%;
   padding: 1rem 3rem 1rem 1rem;
-  color: #7288a2;
+  color: #fff;
   font-size: 1.15rem;
   font-weight: 400;
   border-bottom: 1px solid #e5e5e5;
@@ -520,13 +520,12 @@ footer .copyright{
 }
 .accordion a::after {
   font-family: "Font Awesome 5 Free";
-  content: "\f139";
+  content: "\f077";
   position: absolute;
   float: right;
   right: 1rem;
   font-size: 1rem;
-  color: #7288a2;
-  padding: 5px;
+  color: #fdb245;
   width: 30px;
   height: 30px;
   -webkit-border-radius: 50%;
