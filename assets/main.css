@@ -537,11 +537,11 @@ footer .copyright{
   text-align: center;
  font-weight: 900; 
   margin: auto; /* Important */ 
-padding-top: 1px;
+padding-top: 2px;
 }
 .accordion a.active:not(.inherit)::after {
   font-family: "Font Awesome 5 Free";
-  content: "\f139"
+  content: "\f077"
   color: #ff5353;
   border: 1px solid #fdb245;
 	font-weight: 900; 
