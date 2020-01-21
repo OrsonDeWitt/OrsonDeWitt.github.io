@@ -507,14 +507,14 @@ footer .copyright{
 .accordion a:hover,
 .accordion a:hover::after {
   cursor: pointer;
-  color: #ff5353;
+  color: #fdb245;
 }
 .accordion a:hover::after {
-  border: 1px solid #ff5353;
+  border: 1px solid #fdb245;
 }
 .accordion a.active {
-  color: #ff5353;
-  border-bottom: 1px solid #ff5353;
+  color: #fdb245;
+  border-bottom: 1px solid #fdb245;
 }
 .accordion a::after {
   font-family: 'Font Awesome\ 5 Free';
@@ -537,7 +537,7 @@ footer .copyright{
   font-family: 'Font Awesome\ 5 Free';
   content: '\f13a';
   color: #ff5353;
-  border: 1px solid #ff5353;
+  border: 1px solid #fdb245;
 }
 .accordion .content {
   opacity: 0;
