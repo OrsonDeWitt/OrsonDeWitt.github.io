@@ -8,6 +8,7 @@
 <script src="{{"/assets/faq.js" | relative_url }}"></script>
 
 <script>
+  if(screen.width >= 720){
   mybutton = document.getElementById("topbutton");
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
@@ -23,6 +24,7 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+  }
 </script>
 {% if page.url contains 'contact' %}
   <!-- Form Validation -->
