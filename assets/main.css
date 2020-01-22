@@ -171,10 +171,11 @@ header.masthead .overlay{
 	background-color:#212529;
 	opacity:0.1
 }
+}
 header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading{
 	padding:37px 0 0px;
 	color:#FBC403;
-}
+	text-align:center;
 }
 @media only screen and (min-width: 768px){
 header.masthead .page-heading>h1{
