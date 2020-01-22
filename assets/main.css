@@ -246,6 +246,9 @@ header.masthead .post-heading .meta a{
 	.post-preview{
 		text-align:center !important
 }
+	header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading{
+	padding:60px 0 0px;
+}
 }
 .post-preview>a{
 	color:white
