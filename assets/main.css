@@ -65,6 +65,23 @@ img::-moz-selection{
 	color:#fff;
 	background:transparent
 }
+.smallicon {
+    text-align: center;
+    height: 100%;
+    border-radius: 10%;
+    color: #FBC403;
+  	vertical-align: middle;
+	position:relative;
+}
+.bigicon {
+    text-align: center;
+    height: 3rem;
+    width: 3rem;
+    background: #FBC403;
+    border-radius: 10%;
+    line-height: 3rem;
+    color: #000;
+}
 #mainNav{
 	position:absolute;
 	background-color:black;
