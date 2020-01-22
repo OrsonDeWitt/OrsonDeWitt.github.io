@@ -636,7 +636,7 @@ padding-top: 2px;
         vertical-align: text-bottom;
     }
     .emai {
-	    border: 1px solid #fff;
+	    border: 2px solid #000;
         -webkit-border-radius: 3px;
         -moz-border-radius: 3px;
 	    border-radius: 3px;
