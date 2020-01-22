@@ -585,7 +585,7 @@ padding-top: 2px;
         padding: 4px;
         font-size: 13px;
         line-height: 18px;
-        color: #555555;
+        color: #fff;
         width: 100%;
         box-sizing: border-box;
         -moz-box-sizing: border-box;
@@ -598,7 +598,7 @@ padding-top: 2px;
         margin-left: 4px;
         font-size: 14px;
         font-family: helvetica; 
-        color: #d8c580;
+        color: #fff;
     }
     .subscription-thank-you {
         font-family: helvetica; 
