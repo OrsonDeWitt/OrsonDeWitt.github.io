@@ -70,25 +70,6 @@ body {
   background-color: #fff;
 }
 
-.smallicon {
-    text-align: center;
-    height: 100%;
-    width: 22px;
-    background: #FBC403;
-    border-radius: 10%;
-    color: #000;
-  	vertical-align: middle;
-}
-.bigicon {
-    text-align: center;
-    height: 3rem;
-    width: 3rem;
-    background: #FBC403;
-    border-radius: 10%;
-    line-height: 3rem;
-    color: #000;
-}
-
 [tabindex="-1"]:focus {
   outline: 0 !important;
 }
