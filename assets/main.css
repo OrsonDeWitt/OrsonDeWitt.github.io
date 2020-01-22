@@ -652,6 +652,6 @@ padding-top: 2px;
         color: #000000;
 	    font-weight: bold;
 	}
-	.emai:hover {
+	.emai:focus,:hover {
 		background-color:#fff; 
 	}
