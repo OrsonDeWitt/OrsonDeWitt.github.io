@@ -634,5 +634,6 @@ padding-top: 2px;
         -webkit-border-radius: 3px;
         -moz-border-radius: 3px;
 	    border-radius: 3px;
-	    width:60%
+	    width:60%;
+		    background-color:#fdb245;
 	}
