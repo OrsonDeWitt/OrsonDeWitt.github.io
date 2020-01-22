@@ -490,14 +490,8 @@ footer .copyright{
   background-color: #555; /* Add a dark-grey background on hover */
 }
 
-.fa-reddit-square:hover {
-  color:#FF4301
-}
 .fa-discord {
  padding-top:5%;
-}
-.fa-discord:hover {
- color:#7289da
 }
 	
 	.accordion a:not(.inherit) {
