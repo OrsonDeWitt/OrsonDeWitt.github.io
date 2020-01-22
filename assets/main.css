@@ -632,10 +632,11 @@ padding-top: 2px;
         vertical-align: text-bottom;
     }
     .emai {
-	    border: 1px solid #fdb245;
+	    border: 1px solid #fff;
         -webkit-border-radius: 3px;
         -moz-border-radius: 3px;
 	    border-radius: 3px;
 	    width:60%;
 		    background-color:#fdb245;
+	    font-color: #fff;
 	}
