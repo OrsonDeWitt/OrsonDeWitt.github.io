@@ -76,6 +76,8 @@ body {
     width: 22px;	
     border-radius: 10%;	
   	vertical-align: middle;	
+    padding-bottom: 5%;
+  background-color:transparent;
 }	
 .bigicon {	
     text-align: center;	
