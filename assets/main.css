@@ -616,8 +616,8 @@ padding-top: 2px;
     width: 22px;	
   background-color: transparent;
 	    padding-bottom: 3px;
-	    padding-left:-50%;
-text-shadow: 0 0 3px #000;
+	    padding-left: -3px;
+text-shadow: 0 0 5px #000;
     }
     .sender-link-wrapper {
         display: block;
