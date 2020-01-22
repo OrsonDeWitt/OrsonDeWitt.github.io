@@ -74,6 +74,7 @@ img::-moz-selection{
 	color:#343a40
 }
 #mainNav .navbar-toggler{
+	float:right;
 	font-size:12px;
 	font-weight:800;
 	padding:13px;
