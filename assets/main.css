@@ -183,8 +183,9 @@ header.masthead .page-heading>h1{
 	line-height:0.8;
 	font-weight:300
 }
-header.masthead .page-heading,header.masthead .site-heading{
-	text-align:center
+header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading{
+	text-align:center;
+	padding:60px 0 0px;
 }
 header.masthead .page-heading h1,header.masthead .site-heading h1{
 	font-size:50px;
@@ -243,12 +244,13 @@ header.masthead .post-heading .meta a{
 }
 }
 @media only screen and (max-width: 767px){
+	header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading{
+	text-align:center;
+	padding:40px 0 0px;
+}
 	.post-preview{
 		text-align:center !important
-}
-	header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading{
-	padding:60px 0 0px;
-}
+	}
 }
 .post-preview>a{
 	color:white
