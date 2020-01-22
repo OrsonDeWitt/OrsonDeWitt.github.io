@@ -620,6 +620,9 @@ padding-top: 2px;
 	    padding-left: -3px;
 	    text-shadow: -3px 0 #000, 0 3px #000, 3px 0 #000, 0 -3px #000;
     }
+	    .subscription-form-input button:hover {
+        font-color: #fff;
+    }
     .sender-link-wrapper {
         display: block;
         position: relative;
