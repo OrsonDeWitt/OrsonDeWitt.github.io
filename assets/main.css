@@ -183,10 +183,6 @@ header.masthead .page-heading>h1{
 	line-height:0.8;
 	font-weight:300
 }
-header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading{
-	text-align:center;
-	padding:60px 0 0px;
-}
 header.masthead .page-heading h1,header.masthead .site-heading h1{
 	font-size:50px;
 	margin-top:0
@@ -204,6 +200,12 @@ header.masthead .page-heading .subheading,header.masthead .site-heading .subhead
 	-webkit-text-stroke-color: white;
 }
 	}
+@media only screen and (max-width: 1200px){
+header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading{
+	text-align:center;
+	padding:60px 0 0px;
+}
+}
 @media only screen and (min-width: 768px){
 	header.masthead .page-heading h1,header.masthead .site-heading h1{
 		font-size:54px
