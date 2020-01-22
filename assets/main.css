@@ -582,7 +582,7 @@ padding-top: 2px;
 
 .subscription-form-input {
         display: inline-block;
-        padding: 4px;
+        padding: 14px;
         font-size: 15px;
         line-height: 20px;
         color: #000000;
@@ -596,7 +596,7 @@ padding-top: 2px;
     .subscription-form .checkbox_label {
         display: inline-block;
         line-height: 20px;
-        margin-left: 14px;
+        margin-left: 44px;
         font-size: 16px;
         font-family: helvetica; 
         color: #000000;
