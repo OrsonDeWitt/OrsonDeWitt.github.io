@@ -289,16 +289,16 @@ img::-moz-selection{
 	letter-spacing:2px;
 	text-transform:uppercase;
 }
-@media only screen and (max-width: 575.98px){
+@media only screen and (max-width: 490px 575.98px){
 #mainNav .navbar-nav>li.nav-item>a{
         color:#fff;
 }
 header.masthead {
-     height: 88px;
+     height: 112px;
 }
 header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading{
 	text-align:left;
-	padding:0px 0 0px;
+	padding:17px 0 0px;
         margin-left:-20px;
 }
 }
