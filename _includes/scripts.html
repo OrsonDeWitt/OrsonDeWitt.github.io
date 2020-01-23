@@ -8,7 +8,8 @@
 <script src="{{"/assets/faq.js" | relative_url }}"></script>
 
 <script>
-  if(screen.width >= 720){
+  if($(window).width() >= 720) {
+  {
   mybutton = document.getElementById("topbutton");
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
