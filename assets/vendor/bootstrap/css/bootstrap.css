@@ -7760,12 +7760,19 @@ button.bg-dark:focus {
   margin-left: auto !important;
 }
 
-@media (max-width: 577px) {
-   .ml-xs-0 {
+@media (max-width: 489.98px) {
+    .ml-xs-0 {
    margin-left: 0 !important;
-}
-  .mr-xs-0 {
+} 
+    .mr-xs-0 {
   margin-right: 0 !important;
+  }
+}
+
+@media (min-width: 490px) {
+  .ml-sm-0,
+  .mx-sm-0 {
+    margin-left: 0 !important;
   }
 }
 
