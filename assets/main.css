@@ -283,9 +283,9 @@ img::-moz-selection{
 	letter-spacing:2px;
 	text-transform:uppercase;
 }
-@media only screen and (min-width: 575.98px){
+@media only screen and (max-width: 575.98px){
 #mainNav .navbar-nav>li.nav-item>a{
-        color:#ffd;
+        color:#fff;
 }
 }
 @media only screen and (min-width: 992px){
