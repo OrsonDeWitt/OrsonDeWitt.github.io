@@ -4045,6 +4045,15 @@ input[type="button"].btn-block {
   border-radius: 0.25rem;
 }
 
+@media (max-width: 575.98px){
+  .navbar-toggler {
+  background-color: black;
+}
+  .navbar {
+  padding: 0;
+}
+}
+
 .navbar-toggler:hover, .navbar-toggler:focus {
   text-decoration: none;
 }
