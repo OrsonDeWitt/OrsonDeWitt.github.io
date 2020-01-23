@@ -283,6 +283,11 @@ img::-moz-selection{
 	letter-spacing:2px;
 	text-transform:uppercase;
 }
+@media only screen and (min-width: 575.98px){
+#mainNav .navbar-nav>li.nav-item>a{
+        color:#ffd;
+}
+}
 @media only screen and (min-width: 992px){
 	#mainNav{
 		border-bottom:1px solid transparent;
