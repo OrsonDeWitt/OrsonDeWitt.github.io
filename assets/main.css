@@ -286,9 +286,15 @@ img::-moz-selection{
 	text-transform:uppercase;
 }
 
+@media only screen and (max-width: 410px){
+	header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading{
+	text-align:left;
+	padding:17px 0 0px;
+        margin-left:-20px;
+}
+}
 
-
-@media only screen and (max-width: 490px){
+@media only screen and (max-width: 489.98px){
 #mainNav .navbar-nav>li.nav-item>a{
         color:#fff;
 }
@@ -297,7 +303,7 @@ header.masthead {
 }
 header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading{
 	text-align:left;
-	padding:17px 0 0px;
+	padding:10px 0 0px;
         margin-left:-20px;
 }
 	  #mainNav{
@@ -306,11 +312,25 @@ header.masthead .page-heading,header.masthead .post-heading,header.masthead .sit
 	
 }
 
+@media only screen and (min-width: 490px){
+	p {
+	text-align: justify;	
+	}
+}
 
 @media only screen and (min-width: 992px){
 	#mainNav{
 		border-bottom:1px solid transparent;
-		background:transparent
+		background:transparent;
+		-webkit-transition:background-color 0.2s;
+		-moz-transition:background-color 0.2s;
+		transition:background-color 0.2s;
+		-webkit-transform:translate3d(0, 0, 0);
+		-moz-transform:translate3d(0, 0, 0);
+		-ms-transform:translate3d(0, 0, 0);
+		-o-transform:translate3d(0, 0, 0);
+		transform:translate3d(0, 0, 0);
+		-webkit-backface-visibility:hidden;
 }
 	#mainNav .navbar-brand{
 		padding:10px 20px;
@@ -326,19 +346,6 @@ header.masthead .page-heading,header.masthead .post-heading,header.masthead .sit
 	#mainNav .navbar-nav>li.nav-item>a:focus,#mainNav .navbar-nav>li.nav-item>a:hover{
 		color:rgba(255,184,68,0.8);
 		transition: color 0.5s;
-}
-}
-@media only screen and (min-width: 992px){
-	#mainNav{
-		-webkit-transition:background-color 0.2s;
-		-moz-transition:background-color 0.2s;
-		transition:background-color 0.2s;
-		-webkit-transform:translate3d(0, 0, 0);
-		-moz-transform:translate3d(0, 0, 0);
-		-ms-transform:translate3d(0, 0, 0);
-		-o-transform:translate3d(0, 0, 0);
-		transform:translate3d(0, 0, 0);
-		-webkit-backface-visibility:hidden
 }
 	#mainNav.is-fixed{
 		position:fixed;
@@ -391,6 +398,7 @@ header.masthead .overlay{
 	opacity:0.1
 }
 }
+
 @media (min-width:1200px){
 header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading{
 	padding:37px 0 0px;
