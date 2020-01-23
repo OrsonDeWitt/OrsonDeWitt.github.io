@@ -313,7 +313,7 @@ header.masthead .page-heading,header.masthead .post-heading,header.masthead .sit
 }
 
 @media only screen and (min-width: 490px){
-	p {
+	.container .div .div p {
 	text-align: justify;	
 	}
 }
