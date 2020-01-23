@@ -259,6 +259,11 @@ img::-moz-selection{
 	background-color:black;
 	font-family:'Source Sans Pro', sans-serif
 }
+@media (max-width: 575.98px){
+  #mainNav{
+  background-color: transparent;
+}
+}
 #mainNav .navbar-brand{
 	font-weight:800;
 	color:#343a40
