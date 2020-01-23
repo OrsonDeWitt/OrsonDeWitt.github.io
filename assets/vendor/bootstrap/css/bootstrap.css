@@ -7762,6 +7762,9 @@ button.bg-dark:focus {
    .ml-xs-0 {
    margin-left: 0 !important;
 }
+  .mr-xs-0 {
+  margin-
+  }
 }
 
 @media (min-width: 576px) {
