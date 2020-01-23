@@ -861,6 +861,14 @@ pre code {
   margin-left: 91.666667%;
 }
 
+@media (min-width: 320px) {
+   .col-xs-12 {
+ -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+}
+
 @media (min-width: 576px) {
   .col-sm {
     -ms-flex-preferred-size: 0;
