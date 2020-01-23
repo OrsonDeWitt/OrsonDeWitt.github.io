@@ -415,7 +415,7 @@ header.masthead .page-heading .subheading,header.masthead .site-heading .subhead
 	-webkit-text-stroke-color: white;
 }
 	}
-@media only screen and (max-width: 1200px){
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
 header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading{
 	text-align:center;
 	padding:60px 0 0px;
@@ -460,7 +460,7 @@ header.masthead .post-heading .meta a{
 		font-size:20px
 }
 }
-@media only screen and (max-width: 767px){
+@media only screen and (min-width:576px) and (max-width: 767px){
 	header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading{
 	text-align:center;
 	padding:40px 0 0px;
