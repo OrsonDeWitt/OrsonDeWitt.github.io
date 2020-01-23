@@ -4016,6 +4016,13 @@ input[type="button"].btn-block {
   padding-left: 0;
 }
 
+@media (max-width: 575.98px){
+  .navbar-nav .nav-link {
+  padding-right: 1%;
+  text-align: end;
+}
+}
+
 .navbar-nav .dropdown-menu {
   position: static;
   float: none;
@@ -7329,6 +7336,13 @@ button.bg-dark:focus {
   right: 0;
   left: 0;
   z-index: 1030;
+}
+
+@media (max-width: 575.98px) {
+  .fixed-top {
+  right: -90%;
+  left: 70%;
+}
 }
 
 .fixed-bottom {
