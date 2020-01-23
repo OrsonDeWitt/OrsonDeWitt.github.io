@@ -3886,7 +3886,9 @@ input[type="button"].btn-block {
 }
 
 @media only screen and (max-width:575.98px){
-  padding: 0.2rem 1rem;
+  .nav-link {
+padding: 0.2rem 1rem;
+}
 }
 
 .nav-link:hover, .nav-link:focus {
