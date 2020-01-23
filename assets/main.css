@@ -293,6 +293,14 @@ img::-moz-selection{
 #mainNav .navbar-nav>li.nav-item>a{
         color:#fff;
 }
+header.masthead {
+     height: 88px;
+}
+header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading{
+	text-align:left;
+	padding:0px 0 0px;
+        margin-left:-20px;
+}
 }
 @media only screen and (min-width: 992px){
 	#mainNav{
@@ -443,16 +451,6 @@ header.masthead .post-heading .meta{
 }
 header.masthead .post-heading .meta a{
 	color:#fff
-}
-@media only screen and (max-width: 575.98px){
-     header.masthead {
-     height: 88px;
-}
-header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading{
-	text-align:left;
-	padding:0px 0 0px;
-        margin-left:-20px;
-}
 }
 @media only screen and (min-width: 768px){
 	header.masthead .post-heading h1{
