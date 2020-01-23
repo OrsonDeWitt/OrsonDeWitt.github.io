@@ -312,13 +312,13 @@ header.masthead .page-heading,header.masthead .post-heading,header.masthead .sit
 	
 }
 
-@media only screen and (min-width: 490px){
+@media only screen and (min-width: 490px) and (max-width: 766.98px){
 	.container .div .div p {
 	text-align: justify;	
 	}
-	.container div div h4, .container div div h5 {
-	text-align: center;	
-	margin-top:1em; 
+	.container div div h4, .container div div h5, .container div div .emai, .container div div button, .sender-link-wrapper{
+	display: block;
+	margin: 1em auto 0;
 	}
 	header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading{
 	text-align:left;
