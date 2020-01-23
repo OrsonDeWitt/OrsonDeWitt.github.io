@@ -135,7 +135,8 @@ padding-top: 2px;
 }
 
 .subscription-form-input {
- padding: 0
+ 	padding: 0;
+	margin-top: 1px;
 }
 @media only screen and (min-width: 576px){
 .subscription-form-input {
@@ -196,17 +197,17 @@ padding-top: 2px;
     .sender-link img {
         width: 0.92em;
         height: 0.92em;
-        margin-right: 2px;
         vertical-align: text-bottom;
     }
 	@media (max-width: 768px){
     .sender-link {
-        font-size: 0.7em;
+     font-size: 0.7em;
     }
     .sender-link img {
         width: 0.75em;
         height: 0.75em;
         vertical-align:middle;
+	margin-right: 0px;
     }
 }
     .emai {
