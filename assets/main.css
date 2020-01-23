@@ -199,7 +199,7 @@ padding-top: 2px;
         height: 0.92em;
         vertical-align: text-bottom;
     }
-	@media (max-width: 768px){
+	@media only screen and (max-width: 768px){
     .sender-link {
      font-size: 0.7em;
     }
@@ -266,11 +266,6 @@ img::-moz-selection{
 	background-color:black;
 	font-family:'Source Sans Pro', sans-serif
 }
-@media (max-width: 575.98px){
-  #mainNav{
-  background-color: transparent;
-}
-}
 #mainNav .navbar-brand{
 	font-weight:800;
 	color:#343a40
@@ -290,6 +285,9 @@ img::-moz-selection{
 	letter-spacing:2px;
 	text-transform:uppercase;
 }
+
+
+
 @media only screen and (max-width: 490px){
 #mainNav .navbar-nav>li.nav-item>a{
         color:#fff;
@@ -302,7 +300,13 @@ header.masthead .page-heading,header.masthead .post-heading,header.masthead .sit
 	padding:17px 0 0px;
         margin-left:-20px;
 }
+	  #mainNav{
+  background-color: transparent;
+	}
+	
 }
+
+
 @media only screen and (min-width: 992px){
 	#mainNav{
 		border-bottom:1px solid transparent;
