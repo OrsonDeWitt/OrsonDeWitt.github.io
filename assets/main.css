@@ -289,7 +289,7 @@ img::-moz-selection{
 	letter-spacing:2px;
 	text-transform:uppercase;
 }
-@media only screen and (max-width: 490px 575.98px){
+@media only screen and (max-width: 490px){
 #mainNav .navbar-nav>li.nav-item>a{
         color:#fff;
 }
