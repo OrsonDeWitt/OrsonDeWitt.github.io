@@ -320,6 +320,11 @@ header.masthead .page-heading,header.masthead .post-heading,header.masthead .sit
 	text-align: center;	
 	margin-top:1em; 
 	}
+	header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading{
+	text-align:left;
+	padding:2px 0 0px;
+        margin-left:-20px;
+}
 }
 
 @media only screen and (min-width: 992px){
