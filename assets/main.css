@@ -208,7 +208,7 @@ padding-left: -3px;
     }
 	@media only screen and (max-width: 768px){
     .sender-link {
-     font-size: 0.5em;
+     font-size: 0.64em;
     }
     .sender-link img {
         width: 0.75em;
