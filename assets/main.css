@@ -333,7 +333,7 @@ header.masthead .page-heading,header.masthead .post-heading,header.masthead .sit
 	padding:2px 0 0px;
         margin-left:-20px;
 }
-        .card-body .small{
+.card-body .small{
         font-size: 100%;
 }
 }
