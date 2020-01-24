@@ -56,7 +56,14 @@ height:50%;
 .fa-discord {
  padding-top:6%;
 }
-	
+
+@media only screen and (min-width: 900px){
+col-pad{
+    max-width: 100%;
+    flex: 0 0 100%;
+    padding: 0 20%;
+}
+
 	.accordion a:not(.inherit) {
   position: relative;
   display: -webkit-box;
