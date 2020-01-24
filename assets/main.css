@@ -469,6 +469,13 @@ header.masthead .page-heading .subheading,header.masthead .site-heading .subhead
 #mainNav{
         background:linear-gradient(to right,transparent,85%,black)
         }
+        .card-body{
+        padding: 0.5rem;}
+        .card{
+        border-radius:0.8rem;}
+        .cpad{
+        padding-right: 7px;
+        padding-left: 7px;
 }
 @media only screen and (min-width: 960px) and (max-width: 1199.98px) {
 header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading{
