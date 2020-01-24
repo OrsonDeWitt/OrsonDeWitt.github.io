@@ -168,7 +168,7 @@ padding-top: 2px;
         font-size: 14px;
     }
     .subscription-form-input button {
-        padding: 0px; 
+        padding: 0 0 4px -3px;
         text-align: center;
         border: none;
 	font-size: 24px;
@@ -176,8 +176,6 @@ padding-top: 2px;
 	vertical-align: middle;
     width: 22px;	
   background-color: transparent;
-	    padding-bottom: 4px;
-	    padding-left: -3px;
 	    text-shadow: -3px 0 #000, 0 3px #000, 3px 0 #000, 0 -3px #000;
     }
 	    .subscription-form-input button:hover {
@@ -209,6 +207,9 @@ padding-top: 2px;
         vertical-align:middle;
 	margin-right: 0px;
     }
+.subscription-form-input {
+        padding: 0px;
+}
 }
     .emai {
 	    border: 2px solid #000;
