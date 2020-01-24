@@ -151,6 +151,7 @@ padding-top: 2px;
         -moz-box-sizing: border-box;
         margin-bottom: 0px;
 	margin-top: 8px;
+        text-align: center;
     }
 }
     .subscription-form .checkbox_label {
@@ -318,8 +319,9 @@ header.masthead .page-heading,header.masthead .post-heading,header.masthead .sit
 	.container .div .div p {
 	text-align: justify;	
 	}
-	.container div div h4, .container div div h5, .container div div .emai, .sender-link{
+	.container div div h4, .container div div h5{
 	margin: 1em auto 0;
+        display: block;
 	}
 	header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading{
 	text-align:left;
