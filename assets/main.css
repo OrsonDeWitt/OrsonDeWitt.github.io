@@ -28,6 +28,11 @@ a:focus,a:hover:not(.list-inline-item){
 	color:#fff
 }
 
+header.masthead .page-heading .logo {
+ width:50%;
+height:50%;
+}
+
 #topbutton {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
@@ -332,6 +337,11 @@ header.masthead .page-heading,header.masthead .post-heading,header.masthead .sit
 	text-align:left;
 	padding:2px 0 0px;
         margin-left:-20px;
+}
+        header.masthead .page-heading .logo{
+        width:41%;
+        height:41%;
+}
 }
 .card-body .small{
         font-size: 100%;
