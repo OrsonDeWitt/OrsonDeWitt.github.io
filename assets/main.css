@@ -319,7 +319,6 @@ header.masthead .page-heading,header.masthead .post-heading,header.masthead .sit
 	text-align: justify;	
 	}
 	.container div div h4, .container div div h5, .container div div .emai, .sender-link{
-	display: block;
 	margin: 1em auto 0;
 	}
 	header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading{
