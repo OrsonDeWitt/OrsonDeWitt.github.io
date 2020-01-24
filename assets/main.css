@@ -322,8 +322,8 @@ header.masthead .page-heading,header.masthead .post-heading,header.masthead .sit
 	text-align: justify;	
 	}
 	.container div div h4, .container div div h5{
-	margin: 1em auto 0;
-        display: block;
+	margin: 1em auto;
+        text-align:center;
 	}
 	header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading{
 	text-align:left;
