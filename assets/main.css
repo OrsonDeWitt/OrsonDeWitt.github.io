@@ -209,7 +209,7 @@ padding-top: 2px;
 	@media only screen and (max-width: 768px){
     .sender-link {
      font-size: 0.64em;
-    }
+		}
     .sender-link img {
         width: 0.75em;
         height: 0.75em;
@@ -218,6 +218,10 @@ padding-top: 2px;
     }
 .subscription-form-input {
         padding: 0px;
+}
+			h1[id]{
+	font-size:1.7em;
+	text-align:left;
 }
 }
     .emai {
@@ -620,12 +624,6 @@ h1[id]{
 	border-bottom:5px solid red;
 	line-height:0.8;
 	color:azure
-}
-@media (max-width: 768px){
-	h1[id]{
-		font-size:1.7em;
-		text-align:left
-}
 }
 em{
 	color:azure;
