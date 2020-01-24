@@ -385,7 +385,8 @@ header.masthead .page-heading,header.masthead .post-heading,header.masthead .sit
 }
 	#mainNav .navbar-nav>li.nav-item>a{
 		padding:10px 20px;
-		color:#fff
+		color:#fff;
+	font-weight:900;
 }
 	#mainNav.is-fixed{
 		position:fixed;
