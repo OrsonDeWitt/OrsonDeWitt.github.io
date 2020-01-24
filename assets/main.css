@@ -461,10 +461,19 @@ header.masthead .page-heading .subheading,header.masthead .site-heading .subhead
 	-webkit-text-stroke-color: white;
 }
 	}
-@media only screen and (min-width: 768px) and (max-width: 1199.98px) {
+@media only screen and (min-width: 768px) and (max-width: 959.98px) {
+ header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading{
+	text-align:center;
+	padding:20px 0 10px;
+}
+#mainNav{
+        background:linear-gradient(to right,transparent,85%,black)
+        }
+}
+@media only screen and (min-width: 960px) and (max-width: 1199.98px) {
 header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading{
 	text-align:center;
-	padding:60px 0 0px;
+	padding:50px 0 10px;
 }
 }
 @media only screen and (min-width: 768px){
