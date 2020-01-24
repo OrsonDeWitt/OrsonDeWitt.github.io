@@ -176,7 +176,7 @@ padding-left: -3px;
         border: none;
 	font-size: 24px;
 	color: #fdb245;
-        margin-bottom: -3px;
+        margin-left: -3px;
 	vertical-align: middle;
     width: 22px;	
   background-color: transparent;
@@ -319,7 +319,7 @@ header.masthead .page-heading,header.masthead .post-heading,header.masthead .sit
 
 @media only screen and (min-width: 490px) and (max-width: 766.98px){
 	#mainNav{
-        background:linear-gradient(to right,transparent,75%,black)
+        background:linear-gradient(to right,transparent,85%,black)
         }
         .container .div .div p {
 	text-align: justify;	
