@@ -356,12 +356,14 @@ header.masthead .page-heading,header.masthead .post-heading,header.masthead .sit
 }}
 
 @media only screen and (min-width: 960px){
-	.container .row .mx-auto p{
-    padding: 0 20%;
-	}
 	#mainNav .navbar-nav>li.nav-item>a{
 	font-weight:500;
 }
+}
+@media only screen and (min-width: 991.98px){
+	.container .row .mx-auto p{
+    padding: 0 20%;
+	}
 }
 
 /*--- @media only screen and (max-width: 960px){
