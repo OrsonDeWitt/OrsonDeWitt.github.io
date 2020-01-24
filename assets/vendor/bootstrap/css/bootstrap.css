@@ -4172,7 +4172,7 @@ padding: 0.2rem 1rem;
   }
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 959.98px) {
   .navbar-expand-lg > .container,
   .navbar-expand-lg > .container-fluid {
     padding-right: 0;
@@ -4180,7 +4180,7 @@ padding: 0.2rem 1rem;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 960px) {
   .navbar-expand-lg {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
