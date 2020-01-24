@@ -372,6 +372,19 @@ header.masthead .page-heading,header.masthead .post-heading,header.masthead .sit
 }
 
 @media only screen and (max-width: 960px){
+	#mainNav{
+		border-bottom:1px solid transparent;
+		background:transparent;
+		-webkit-transition:background-color 0.2s;
+		-moz-transition:background-color 0.2s;
+		transition:background-color 0.2s;
+		-webkit-transform:translate3d(0, 0, 0);
+		-moz-transform:translate3d(0, 0, 0);
+		-ms-transform:translate3d(0, 0, 0);
+		-o-transform:translate3d(0, 0, 0);
+		transform:translate3d(0, 0, 0);
+		-webkit-backface-visibility:hidden;
+}
 		#mainNav.is-fixed{
 		position:fixed;
 		top:-67px;
@@ -403,19 +416,6 @@ header.masthead .page-heading,header.masthead .post-heading,header.masthead .sit
 }
 }
 /*--- 
-#mainNav{
-		border-bottom:1px solid transparent;
-		background:transparent;
-		-webkit-transition:background-color 0.2s;
-		-moz-transition:background-color 0.2s;
-		transition:background-color 0.2s;
-		-webkit-transform:translate3d(0, 0, 0);
-		-moz-transform:translate3d(0, 0, 0);
-		-ms-transform:translate3d(0, 0, 0);
-		-o-transform:translate3d(0, 0, 0);
-		transform:translate3d(0, 0, 0);
-		-webkit-backface-visibility:hidden;
-}
 	#mainNav .navbar-brand{
 		padding:10px 20px;
 		color:#fff
