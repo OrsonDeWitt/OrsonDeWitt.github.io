@@ -358,7 +358,7 @@ header.masthead .page-heading,header.masthead .post-heading,header.masthead .sit
 }
 
 @media only screen and (min-width: 960px){
-	.col-pad{
+	p .col-pad{
     max-width: 100%;
     flex: 0 0 100%;
     padding: 0 20%;
