@@ -349,7 +349,7 @@ header.masthead .page-heading,header.masthead .post-heading,header.masthead .sit
 }
 }
 
-@media only screen and (min-width: 992px){
+@media only screen and (min-width: 960px){
 	#mainNav{
 		border-bottom:1px solid transparent;
 		background:transparent;
