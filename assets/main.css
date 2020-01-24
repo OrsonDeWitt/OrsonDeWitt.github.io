@@ -28,7 +28,7 @@ a:focus,a:hover:not(.list-inline-item){
 	color:#fff
 }
 
-header.masthead .page-heading .logo {
+header.masthead .page-heading img {
  width:50%;
 height:50%;
 }
@@ -338,9 +338,10 @@ header.masthead .page-heading,header.masthead .post-heading,header.masthead .sit
 	padding:2px 0 0px;
         margin-left:-20px;
 }
-        header.masthead .page-heading .logo{
+        header.masthead .page-heading img{
         width:41%;
         height:41%;
+        margin-top:-5px;
 }
 }
 .card-body .small{
