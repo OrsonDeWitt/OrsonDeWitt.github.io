@@ -370,15 +370,17 @@ header.masthead .page-heading,header.masthead .post-heading,header.masthead .sit
     padding: 0 10%;
 	}
 }
+
+@media only screen and (min-width: 991.98px) and (max-width: 1439.98px){
+		p.col20{
+    padding: 0 20%;
+	}
+}
 @media only screen and (min-width: 1440px){
 	p.col20{
     padding: 0 10%;
 	}
 }
-
-@media only screen and (min-width: 991.98px) and (max-width: 1439.98px){
-}
-	
 @media only screen and (min-width: 960px){
 		#mainNav.is-fixed{
 		position:fixed;
