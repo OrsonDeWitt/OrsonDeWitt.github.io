@@ -330,6 +330,12 @@ header.masthead .page-heading,header.masthead .post-heading,header.masthead .sit
 	
 }
 
+@media only screen and (min-width: 490px) and (max-width: 575.98px){
+        header.masthead .page-heading img{
+        width:41%;
+        height:41%;
+}
+
 @media only screen and (min-width: 490px) and (max-width: 766.98px){
 	#mainNav{
         background:linear-gradient(to right,transparent,85%,black)
@@ -347,8 +353,6 @@ header.masthead .page-heading,header.masthead .post-heading,header.masthead .sit
         margin-left:-20px;
 }
         header.masthead .page-heading img{
-        width:41%;
-        height:41%;
         margin-top:-5px;
 }
 .card-body .small{
@@ -552,10 +556,14 @@ header.masthead .post-heading .meta a{
 		font-size:20px
 }
 }
-@media only screen and (min-width:576px) and (max-width: 767px){
+@media only screen and (min-width:576px) and (max-width: 766.98px){
 	header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading{
 	text-align:center;
-	padding:40px 0 0px;
+	padding:15px 0 10px;
+}
+	header.masthead .page-heading img {
+ width:50%;
+height:50%;
 }
 	.post-preview{
 		text-align:center !important
