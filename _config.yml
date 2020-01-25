@@ -3,7 +3,7 @@ email:             dev@orsondewitt.com
 description:       Narrative adventure with factual Ancient Egyptian history at its core
 author:            Orcinus Games
 #url:               "localhost:4000"
-url:               "http://orsondewitt.github.io/"
+url:               "http://orsondewitt.github.io"
 baseurl:
 
 # Social Profiles
