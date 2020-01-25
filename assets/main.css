@@ -365,12 +365,12 @@ header.masthead .page-heading,header.masthead .post-heading,header.masthead .sit
 	font-weight:500;
 }
 }
-@media only screen and (min-width: 960px) and (min-width: 991.98px){
+@media only screen and (min-width: 960px) and (max-width: 991.98px){
 	p.col20{
     padding: 0 10%;
 	}
 }
-@media only screen and (min-width: 991.98px){
+@media only screen and (min-width: 991.98px) and (max-width: 1439.98px){
 	p.col20{
     padding: 0 20%;
 	}
