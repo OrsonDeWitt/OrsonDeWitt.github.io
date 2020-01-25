@@ -8,13 +8,13 @@
   </title>
 
 <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-<meta property="og:title" content="{% if page.title %}{{ page.title | escape }} | {{ site.title | escape }}   {% else %}{{ site.title | escape }}{% endif %} | Narrative adventure with factual history at its core" />
+<meta property="og:title" content="{% if page.title %}{{ page.title | escape }} | {{ site.title | escape }}   {% else %}{{ site.title | escape }}{% endif %}" />
 <meta name="author" content="Orcinus Games" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}" />
 <meta property="og:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}" />
 <meta property="og:url" content="http://orsondewitt.github.io/" />
-<meta property="og:site_name" content="{% if page.title %}{{ page.title | escape }} | {{ site.title | escape }}   {% else %}{{ site.title | escape }}{% endif %} | {{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}" />
+<meta property="og:site_name" content="{% if page.title %}{{ page.title | escape }} | {{ site.title | escape }}   {% else %}{{ site.title | escape }}{% endif %} | Orcinus Games" />
 <script type="application/ld+json">
 {"@type":"WebSite","url":"{{ page.url | replace:'index.html','' | absolute_url }}","headline":"Egypt: Shattered Order | {{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}","name":"Egypt: Shattered Order | {{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}","author":{"@type":"Person","name":"Orcinus Games","url":"https://orsondewitt.com"},"description":"{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}","@context":"https://schema.org"}</script>
   
