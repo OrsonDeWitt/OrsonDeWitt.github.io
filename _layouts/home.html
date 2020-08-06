@@ -21,6 +21,23 @@ layout: default
       </div>
     </div>
 	    
+<script src="https://www.google.com/recaptcha/api.js"></script>
+<script type="text/javascript">
+    function submitGR(token){
+        if(grecaptcha.getResponse().length > 0){
+            document.getElementById("submit-button").setAttribute("captcha", "false");
+            document.getElementById("recaptcha-failed-message").setAttribute("hidden", "");
+        } else {
+            document.getElementById("submit-button").setAttribute("captcha", "true");
+            document.getElementById("recaptcha-failed-message").removeAttribute("hidden");
+        }
+    }
+
+    document.addEventListener("DOMContentLoaded", function(event) {
+		            document.getElementById("submit-button").setAttribute("captcha", "true");
+        });
+</script>
+	    
   </header>
 	  
             <div class="container">
@@ -38,53 +55,6 @@ layout: default
             <div class="container">
                 <div class="row text-md-center text-lg-center text-xl-center col-auto">
                <div class="subscription-form-input col-xs-12 mx-auto ml-xs-0 ml-sm-0">
-		       
-
-         
-<script src="https://www.google.com/recaptcha/api.js"></script>
-<script type="text/javascript">
-    function submitGR(token){
-        if(grecaptcha.getResponse().length > 0){
-            document.getElementById("submit-button").setAttribute("captcha", "false");
-            document.getElementById("recaptcha-failed-message").setAttribute("hidden", "");
-        } else {
-            document.getElementById("submit-button").setAttribute("captcha", "true");
-            document.getElementById("recaptcha-failed-message").removeAttribute("hidden");
-        }
-    }
-
-    document.addEventListener("DOMContentLoaded", function(event) {
-		            document.getElementById("submit-button").setAttribute("captcha", "true");
-        });
-</script>
-<div class="sender-sub-main">
-    <div class="sender-sub-inner">
-        <div class="subscription-form">
-            <h4 class="dont-break-out">Egypt: Shattered Order</h4>
-                                        <div class="subscription-form-fields">
-                    <div class="subscription-form-content">
-                                            </div>
-                    <form id="sender-subscribe" action="https://app.sender.net/forms/sender_subscription/2812/1d98ce24" method="POST">
-                                        
-                            <div class="subscription-form-fields" id="subscription-form-fields">
-                                                                                                        <input name="email" type="email"class="email_type" id="email" data-label="E-mail" placeholder="E-mail" required>
-                                                                                                </div>
-                        						                            <br>
-                            <div id ="recaptcha-failed-message" hidden class="subscription-thank-you">Recaptcha failed, try again!</div>
-                            <div class="g-recaptcha" data-callback="submitGR" style="transform: scale(0.68); -webkit-transform: scale(0.68); transform-origin: 0 0; -webkit-transform-origin: 0 0;" data-sitekey="6Lek36IZAAAAAHLJFLZbOmRMQNnwZSeCuKmTG0XM"></div>
-												                        <button id="submit-button" style="margin-top:5px" type="submit" class=" ">SIGN UP</button>
-                    </form>
-                </div>
-                                <span class="sender-link-wrapper">
-                    <a class="sender-link" href="http://sender.net" title="Email marketing services">
-                        <img src="https://app.sender.net/favicon.png">
-                        <span>Sender.net email marketing</span>
-                    </a>
-                </span>
-                                    </div>
-    </div>
-</div>                
-		       
 		       
 		       <div class="sender-sub-main">
     <div class="sender-sub-inner">
