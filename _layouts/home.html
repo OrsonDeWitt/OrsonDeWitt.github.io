@@ -39,7 +39,25 @@ layout: default
                 <div class="row text-md-center text-lg-center text-xl-center col-auto">
                <div class="subscription-form-input col-xs-12 mx-auto ml-xs-0 ml-sm-0">
 		       
-		       <div class="sender-sub-main">
+
+         
+<script src="https://www.google.com/recaptcha/api.js"></script>
+<script type="text/javascript">
+    function submitGR(token){
+        if(grecaptcha.getResponse().length > 0){
+            document.getElementById("submit-button").setAttribute("captcha", "false");
+            document.getElementById("recaptcha-failed-message").setAttribute("hidden", "");
+        } else {
+            document.getElementById("submit-button").setAttribute("captcha", "true");
+            document.getElementById("recaptcha-failed-message").removeAttribute("hidden");
+        }
+    }
+
+    document.addEventListener("DOMContentLoaded", function(event) {
+		            document.getElementById("submit-button").setAttribute("captcha", "true");
+        });
+</script>
+<div class="sender-sub-main">
     <div class="sender-sub-inner">
         <div class="subscription-form">
             <h4 class="dont-break-out">Egypt: Shattered Order</h4>
@@ -57,10 +75,16 @@ layout: default
 												                        <button id="submit-button" style="margin-top:5px" type="submit" class=" ">SIGN UP</button>
                     </form>
                 </div>
-                               
+                                <span class="sender-link-wrapper">
+                    <a class="sender-link" href="http://sender.net" title="Email marketing services">
+                        <img src="https://app.sender.net/favicon.png">
+                        <span>Sender.net email marketing</span>
+                    </a>
+                </span>
                                     </div>
     </div>
 </div>                
+		       
 		       
 		       <div class="sender-sub-main">
     <div class="sender-sub-inner">
