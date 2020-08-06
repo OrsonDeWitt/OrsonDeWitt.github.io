@@ -38,17 +38,13 @@ layout: default
             <div class="container">
                 <div class="row text-md-center text-lg-center text-xl-center col-auto">
                <div class="subscription-form-input col-xs-12 mx-auto ml-xs-0 ml-sm-0">
-		       		    <form id="sender-subscribe" target="_blank" action="https://app.sender.net/forms/sender_subscription/2812/1d98ce24" method="POST">
-	
-					    <button type="submit" id="submit-button"><i class="fas fa-arrow-circle-right"></i> </button>
-			    
-                                        <div class="subscription-form-fields">
-                    <div class="subscription-form-content">
-                                            </div>
-                    <form id="sender-subscribe" action="https://app.sender.net/forms/sender_subscription/2812/1d98ce24" method="POST">
-                                        
-                            <div class="subscription-form-fields" id="subscription-form-fields">
-                                                                                                        <input name="email" type="email"class="email_type" id="email" data-label="E-mail" placeholder="E-mail" required>
+		       
+<div class="subscription-form-fields">
+
+	    <form id="sender-subscribe" target="_blank" action="https://app.sender.net/forms/sender_subscription/2812/1d98ce24" method="POST">
+	<div class="subscription-form-fields" id="subscription-form-fields">
+     <input name="email" type="email" class="email_type emai" id="email" data-label="E-mail" maxlength="100" placeholder="Your e-mail" required>
+    <button type="submit" id="submit-button"><i class="fas fa-arrow-circle-right"></i> </button>
                                                                                                 </div>
                         						                            <br>
                             <div id ="recaptcha-failed-message" hidden class="subscription-thank-you">Recaptcha failed, try again!</div>
