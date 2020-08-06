@@ -159,19 +159,6 @@ padding-top: 2px;
         text-align: center;
     }
 }
-/*- new */
-    .checkbox_wrapper {
-        display: inline-block;
-        padding: 4px;
-        width: 100%;
-    }
-    .subscription-form input.checkbox_type, .subscription-form .checkbox_label {
-        width: auto;
-        vertical-align: middle;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-/*--- */
     .subscription-form .checkbox_label {
         display: inline-block;
         line-height: 20px;
