@@ -12,9 +12,20 @@
     
         <button onclick="topFunction()" id="topbutton" title="Go back to the top"><i class="fas fa-chevron-circle-up"></i></button>
 
-    {% include footer.html %}
-    
-
+     {% if page.url == "/" %}
+    <footer>
+    {% include scripts.html %}
+      <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 col-xs-12 mx-auto text-center">
+       <p class="copyright text-muted"><i class="far fa-envelope"></i> <a href="mailto:{{ site.email }}" class="text-muted">{{ site.email }}</a><br>Copyright &copy; {{ site.author }}, {{ 'now' | date: "%Y" }}</p>
+       </div>
+    </div>
+  </div>
+    </footer>
+          {% else %}
+ {% include footer.html %}
+    {% endif %}
   </body>
 
 </html>
