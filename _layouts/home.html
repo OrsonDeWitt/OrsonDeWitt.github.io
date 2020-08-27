@@ -21,22 +21,6 @@ layout: default
       </div>
     </div>
 	    
-<script src="https://www.google.com/recaptcha/api.js"></script>
-<script type="text/javascript">
-    function submitGR(token){
-        if(grecaptcha.getResponse().length > 0){
-            document.getElementById("submit-button").setAttribute("captcha", "false");
-            document.getElementById("recaptcha-failed-message").setAttribute("hidden", "");
-        } else {
-            document.getElementById("submit-button").setAttribute("captcha", "true");
-            document.getElementById("recaptcha-failed-message").removeAttribute("hidden");
-        }
-    }
-
-    document.addEventListener("DOMContentLoaded", function(event) {
-		            document.getElementById("submit-button").setAttribute("captcha", "true");
-        });
-</script>
   </header>
 
             <div class="container">
