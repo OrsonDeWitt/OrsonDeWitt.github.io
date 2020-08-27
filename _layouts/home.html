@@ -32,9 +32,55 @@ layout: default
                         <p class="col20">You won't know until you unite Egypt — only the rulers of both Upper and Lower Egypt can be called as such, and, as of now, Egypt is shattered! Take the reins of this chariot on its way to the otherworld, restore the order, and build the great pyramid to preserve your legacy! But it's not going to be easy. The priests are breathing down your neck, the enemies are on a war footing, the noblemen are out of line, and, on top of all that, the God's Wife must be chosen swiftly, lest no heir is left to the throne...
 			    </p><p class="col20">Can you guide Egyptians through all the hardships to prosperity and power? Will your heart stay pure and uncorrupted so that your soul is granted access to the heavenly realms, to dwell with the gods?</p>
 			                <h5 class="text-h0">Sign up to find out first-hand!</h5>
-                    </div>
+                    </div> Click (hover to learn more) on your favorite icon to make sure you don't miss the chance to find out first-hand!
                 </div>
                 </div>
+	  
+	    <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 col-xs-12 mx-auto text-center">
+        <ul class="list-inline text-center">
+          {% if site.steam_creator_page %}
+          <li class="list-inline-item">
+            <a href="{{ site.steam_creator_page }}">
+              <span class="fa-stack fa-lg">
+                <i class="fab fa-steam-square fa-stack-2x" title="Have Steam send you an email when the game is out"></i>
+              </span>
+            </a>
+          </li>
+          {% endif %}
+          {% if site.subreddit %}
+          <li class="list-inline-item">
+            <a href="https://www.reddit.com/r/{{ site.subreddit }}">
+              <span class="fa-stack fa-lg">
+                <i class="fab fa-reddit-square fa-stack-2x" title="Join the subreddit to follow development"></i>
+              </span>
+            </a>
+          </li>
+          {% endif %}
+          {% if site.discord_invite %}
+          <li class="list-inline-item">
+            <a href="{{ site.discord_invite }}">
+              <span class="fa-stack fa-lg">
+                <i class="fab fa-discord fa-stack-2x" title="Join the Discord server to follow development"></i>
+              </span>
+            </a>
+          </li>
+          {% endif %}
+          {% if site.youtube %}
+          <li class="list-inline-item">
+            <a href="{{ site.youtube }}">
+              <span class="fa-stack fa-lg">
+                <i class="fab fa-youtube-square fa-stack-2x" title="Subscribe and click on the bell to have Youtube notify you when the first trailer is out"></i>
+              </span>
+            </a>
+          </li>
+          {% endif %}
+        </ul>
+        <p class="copyright text-muted"><i class="far fa-envelope"></i> <a href="mailto:{{ site.email }}" class="text-muted">{{ site.email }}</a><br>Copyright &copy; {{ site.author }}, {{ 'now' | date: "%Y" }}</p>
+      </div>
+    </div>
+  </div>
 
 <!--
             <div class="container">
