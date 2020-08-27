@@ -159,6 +159,17 @@ padding-top: 2px;
         text-align: center;
     }
 }
+    .checkbox_wrapper {
+        display: inline-block;
+        padding: 4px;
+        width: 100%;
+    }
+    .subscription-form input.checkbox_type, .subscription-form .checkbox_label {
+        width: auto;
+        vertical-align: middle;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
     .subscription-form .checkbox_label {
         display: inline-block;
         line-height: 20px;
@@ -172,6 +183,14 @@ padding-top: 2px;
         font-family: helvetica; 
         color: #d8c580; 
         font-size: 14px;
+    }
+    .subscription-form input {
+        color: #000000;
+        background-color: #ffffff;
+        border: 0px solid #000000;
+        border-radius:  0px;
+        -webkit-border-radius:  0px;
+        -moz-border-radius:  0px;
     }
     .subscription-form-input button {
 	padding: 0px;
